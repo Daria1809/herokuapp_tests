@@ -1,0 +1,13 @@
+name: herokuapp_test
+description: "Автоматизированные тесты"
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  webdriver: ^3.0.0
+
+dev_dependencies:
+  test: ^1.25.0
